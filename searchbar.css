@@ -1,0 +1,28 @@
+#container {
+	width: 100%;
+}
+
+#search-bar,
+#search-dropdown {
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	width: 80%;
+	font-size: 24px;
+}
+
+#search-bar {
+	border-color: #0000bb;
+	border-style: solid;
+}
+
+.search-dropdown-item {
+	display: block;
+	padding: 0 10px;
+	color: #000;
+	text-decoration: none;
+}
+
+.search-dropdown-item:hover {
+	background-color: #ddd;
+}
